@@ -1,0 +1,107 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title-text {
+  font-size: 50px;
+  margin-bottom: 100px;
+  font-weight: 800;
+  color: blue;
+}
+#sayhello {
+  font-size: 30px;
+  margin-bottom: 100px;
+  font-weight: 500;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#id,
+#pw {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  width: 400px;
+  height: 40px;
+  background-color: yellow;
+  border: 0px solid white;
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
+
+.todotodo {
+  display: flex;
+  position: absolute;
+  right: 100px;
+  bottom: 200px;
+  height: 40px;
+  width: 200px;
+  flex-direction: column;
+}
+
+#todo-form input::placeholder {
+  text-align: center;
+  font-weight: 300;
+}
+
+#todo-list {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-list li button {
+  width: 30px;
+  height: 30px;
+  background-color: beige;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 800;
+  color: red;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text-cw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bg {
+  position: absolute;
+  top: 0px;
+  opacity: 0.4;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+}
+
+.text-cw__style {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
